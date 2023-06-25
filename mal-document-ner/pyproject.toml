@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mal-document-ner"
+version = "0.1.0"
+description = ""
+authors = ["AkhilBabuMK <akhilbabu633@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mal_document_ner"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytesseract = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
